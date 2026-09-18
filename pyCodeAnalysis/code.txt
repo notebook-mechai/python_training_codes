@@ -1,0 +1,8 @@
+print("    yes")
+x = 1.325
+y = 9.86
+z = x + y
+if z > y:
+	print("yes!?")
+for x in range(5):
+	print(x)
