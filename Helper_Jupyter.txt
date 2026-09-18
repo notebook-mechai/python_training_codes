@@ -1,0 +1,18 @@
+For install:
+> pip install jupyterlab
+
+For Run:
+> jupyter lab
+
+Get the version of Hupyter lab
+> jupyter lab --version
+
+---------------------------
+For install:
+> pip install notebook
+
+For Run:
+> jupyter notebook
+
+Get the version of Jupyter notebook:
+> jupyter notebook --version
