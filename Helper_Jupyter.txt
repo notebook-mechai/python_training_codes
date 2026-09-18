@@ -16,3 +16,14 @@ For Run:
 
 Get the version of Jupyter notebook:
 > jupyter notebook --version
+
+--------------------------
+To change staring port:
+> jupyter notebook --port 9999
+
+Get Help from jupyter:
+> jupyter notebook --help
+
+> jupyter execute notebook.ipynb
+> jupyter execute notebook.ipynb notebook2.ipynb
+> jupyter execute notebook.ipynb --allow-errors
