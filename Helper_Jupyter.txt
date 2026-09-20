@@ -27,3 +27,7 @@ Get Help from jupyter:
 > jupyter execute notebook.ipynb
 > jupyter execute notebook.ipynb notebook2.ipynb
 > jupyter execute notebook.ipynb --allow-errors
+
+
+
+> jupyter server list
