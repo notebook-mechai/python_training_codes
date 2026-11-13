@@ -6,7 +6,7 @@ class UI_designer(QWidget):
 
     def __init__(self):
         super().__init__()
-        uic.load_ui.loadUi("2/userInterface_eventHandling.ui", self)
+        uic.load_ui.loadUi("userInterface_eventHandling.ui", self)
         self.btn_push.clicked.connect(self.action_btn_push)
 
     def action_btn_push(self):

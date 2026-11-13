@@ -7,7 +7,7 @@ class UI(QWidget):
 
     def __init__(self):
         super().__init__()
-        self.setWindowIcon(QIcon("files/pro_icon.png"))
+        self.setWindowIcon(QIcon("../files/pro_icon.png"))
         self.setWindowTitle("project")
         self.setGeometry(200,200,600,300)
         
@@ -25,7 +25,7 @@ class UI(QWidget):
         vbox.addWidget(btn1)
         vbox.addWidget(btn2)
         vbox.addWidget(btn3)
-        # vbox.addStretch() # Very Important ( remove auto spave for between Widget)
+        #vbox.addStretch() # Very Important ( remove auto spave for between Widget)
         # step 4
         self.setLayout(vbox)
 

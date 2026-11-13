@@ -7,7 +7,7 @@ class UI(QWidget):
 
     def __init__(self):
         super().__init__()
-        self.setWindowIcon(QIcon("files/pro_icon.png"))
+        self.setWindowIcon(QIcon("../files/pro_icon.png"))
         self.setWindowTitle("first event")
         self.setGeometry(200,200,400,200)
         self.create_widgets()
