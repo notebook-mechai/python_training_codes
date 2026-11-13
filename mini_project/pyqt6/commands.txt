@@ -1,0 +1,13 @@
+pip install PyQt6
+pip install pyqt6-tools
+
+
+# ****** 2 ways for make .exe file
+
+# +++ way 1 +++
+> pip install pyinstaller
+> pyinstaller --onefile YOUR_SCRIPT.py
+
+# +++ way 2 +++
+> pip install auto-py-to-exe
+> auto-py-to-exe
